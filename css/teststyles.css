@@ -1,7 +1,17 @@
-.text > a {
-  text-decoration: line-through;
+.text {
+  font-size: 16px;
+  line-height: 1.5;
 }
 
-.link {
-  text-decoration: none;
+.post-title {
+  letter-spacing: 6px;
+}
+
+.post-text {
+  letter-spacing: 9px;
+}
+
+.title {
+  color: darkred;
+  text-shadow: 2px 2px 12px orangered;
 }
