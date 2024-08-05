@@ -1,0 +1,99 @@
+/* body {
+  font-family: "Poppins", "Oswald", sans-serif;
+  color: rgb(2, 41, 41);
+  background-color: rgb(230, 224, 224);
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  text-indent: 3%;
+}
+
+.post .title {
+  letter-spacing: 6px;
+  font-family: "Oswald", sans-serif;
+}
+
+.post-text {
+  letter-spacing: 5px;
+}
+
+.title {
+  color: rgb(3, 77, 77);
+  text-shadow: 2px 2px 12px rgb(135, 173, 171);
+} */
+
+/* body {
+  font-family: "Poppins", "Oswald", sans-serif;
+}
+
+.page-title {
+  font-size: 24px;
+  font-family: "Oswald", sans-serif;
+  text-align: none;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  text-align: none;
+}
+
+.club-list .title {
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  text-align: none;
+}
+none .club-list .link {
+  text-decoration: none;
+}
+*/
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #212121;
+  font-size: 14px;
+  background-color: #fafafa;
+  line-height: 1.5;
+}
+
+.page-title {
+  font-size: 32px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  line-height: 1.333;
+  letter-spacing: 3px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  line-height: 1.333;
+  letter-spacing: 1px;
+}
+
+.club-list .title {
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  line-height: 1.333;
+}
+
+.club-list .link:hover,
+.club-list .link:focus {
+  color: cornflowerblue;
+  text-decoration: underline;
+}
+
+.club-list .link:active {
+  color: orangered;
+}
+
+ul > li {
+  list-style-type: none;
+}
