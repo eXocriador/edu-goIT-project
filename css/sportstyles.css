@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-img {
-  display: block;
-}
-
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
@@ -15,6 +11,13 @@ body {
   font-size: 14px;
   background-color: #ffffff;
   line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
 }
 
 h1,
@@ -37,6 +40,12 @@ ul {
   list-style-type: none;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -50,9 +59,20 @@ ul {
   background-color: #e0e0e0;
 }
 
+.page-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-nav {
+  display: flex;
+  gap: 8px;
+}
+
 .page-nav .link {
   display: block;
-  padding: 8px 12px;
+  padding: 4px 8px;
   color: #03a9f4;
   text-decoration: none;
   font-size: 14px;
@@ -91,7 +111,14 @@ ul {
   letter-spacing: 1px;
 }
 
+.club-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
 .club-list .item {
+  flex-basis: calc((100% - 24px) / 3);
   border-radius: 8px;
   overflow: hidden;
 }
@@ -141,6 +168,37 @@ ul {
   background-color: #212121;
 }
 
+.page-footer .container {
+  display: flex;
+  align-items: center;
+}
+
 .copyright-text {
   color: #ffffff;
+}
+
+.social-links {
+  display: flex;
+  gap: 8px;
+}
+
+.benefits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.benefits .item {
+  flex-basis: calc((100% - 32px) / 3);
+}
+
+.downloads {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 20px;
 }
